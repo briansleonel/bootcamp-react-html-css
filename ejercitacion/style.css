@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro","Open Sans",Roboto,"San Francisco",Helvetica,Arial,sans-serif;
+}
+
+.container-header-nav {
+    background-color: #333;
+    padding: .5em;
+}
+
+header, nav {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 122px;
+}
+
+nav ul {
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li::before {
+    content: "|";
+    color: #cccccc;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: .8em;
+    text-decoration: none;
+    color: #cccccc;
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 026e00 */
+
+.link {
+    color: #43853d;
+    text-decoration: none;
+}
+
+.link:hover, .releases a:hover {
+    color: #fff;
+    background-color: #43853d;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+}  
+
+.container-info div {
+    width: 50%;
+}
+
+.info {
+    margin: 3em 0;
+    text-align: center;
+    font-size: 1.1em;
+    display: block
+}
+
+.releases {
+    background-color: #eaf5e9;
+    padding: 1em;
+}
+
+.releases a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #026e00;
+}
+
+.title-download {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.link-download {
+    display: block;
+    background-color: #026e00;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.link-download small {
+    font-size: .6em;
+}
+
+.download p {
+    display: block;
+}
+
+.download div {
+    display: inline-block;
+    margin: 0 10px;
+    width: 45%;
+}
+
+.download div ul {
+    margin-top: 10px
+}
+
+.download div ul li {
+    display: inline-block;
+    font-size: 12px;
+    
+}
+
+.download div ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.download div ul li::before {
+    content: "|";
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+}
+
+footer div img {
+    width: 120px;
+    margin: 20px;
+}
+
+footer div p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    width: 50%;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-left: 100px;
+}
+
+.footer-links ul li {
+    margin: 10px auto;
+}
+.footer-links ul li a {
+    color: #add8e6;
+    text-decoration: none;
+}
